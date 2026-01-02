@@ -56,8 +56,7 @@ const Hero: React.FC = () => {
 
           <div className="mt-12 flex gap-6">
             <Link
-              to="./pages/Contact.tsx"
-              onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
+              to="/contact"
               className="group px-8 py-4 bg-black text-white rounded-full font-semibold flex items-center gap-2 hover:bg-gray-800 transition-colors"
             >
               Contactanos
@@ -65,8 +64,7 @@ const Hero: React.FC = () => {
             </Link>
 
             <Link
-              to="./pages/Projects"
-              onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}
+              to="/projects"
               className="px-8 py-4 bg-transparent border border-gray-300 rounded-full font-semibold hover:border-black transition-colors"
             >
               Ver trabajos

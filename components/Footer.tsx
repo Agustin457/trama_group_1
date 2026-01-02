@@ -13,14 +13,14 @@ const Footer: React.FC = () => {
 
           {/* Brand */}
           <div className="lg:col-span-4">
-            <a href="#" className="flex items-center gap-2 mb-8">
+            <Link to="/" className="flex items-center gap-2 mb-8">
               <div className="w-6 h-6 border border-white flex items-center justify-center">
                 <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
               </div>
               <span className="text-xl font-sans tracking-[0.2em] font-light">
                 TRAMA GROUP
               </span>
-            </a>
+            </Link>
             <p className="text-neutral-500 text-sm leading-relaxed max-w-sm">
               Desarrollando el futuro del real estate de lujo en América Latina. Excelencia, innovación y diseño atemporal.
             </p>

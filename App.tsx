@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import WhatsAppButton from './components/WhatsAppButton';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Filosofia from './pages/Filosofia';
@@ -13,6 +14,7 @@ import ProjectDetail from './pages/ProjectDetail';
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-white font-sans selection:bg-luxury-gold selection:text-white">
         <Navbar />
         <WhatsAppButton />
