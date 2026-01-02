@@ -1,0 +1,12 @@
+{
+    "footer": {
+        "nav_title": "Navigate"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "work": "Projects",
+        "philosophy": "Philosophy",
+        "contact": "Contact"
+    }
+}
