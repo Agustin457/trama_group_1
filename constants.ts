@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     title: 'Feel Pedraza',
     location: 'Manuela Pedraza 3442, Cdad. Autónoma de Buenos Aires',
     category: 'Residencial',
-    image: 'https://picsum.photos/800/1000?random=1',
+    image: '/assets/images/industrial_pop_00.png',
     status: 'En Venta',
     amenities: 'Piscina, Jardín, Gimnasio',
     description: 'El Proyecto Urbano cuenta con espacios luminosos, rincones verdes, jardines aterrazados, espacios de co-working, distribución de redes de conexión wi-fi en lugares comunes, piscinas con solárium, automatizaciones y porteros visores en resguardo de seguridad, terrazas privadas con jardines colgantes, fachadas integrales e iluminación incorporada a la arquitectura y al realce del diseño. Las unidades se encuentran diseñadas y equipadas con un alto grado de detalle, calidad y vanguardia. El diseño de sus espacios y mobiliario, responden a una permanente búsqueda de innovación y flexibilidad, dando como resultado ambientes amplios, funcionales y luminosos. Los materiales elegidos son nobles y están pensados para que perduren inalterables a lo largo del tiempo.'
@@ -25,7 +25,7 @@ export const PROJECTS: Project[] = [
     title: 'Feel Pedraza 2',
     location: 'Manuela Pedraza 3861, Cdad. Autónoma de Buenos Aires',
     category: 'Residencial',
-    image: 'https://picsum.photos/800/600?random=2',
+    image: '/assets/images/modern_cool_00.avif',
     status: 'En Construcción',
     amenities: 'Piscina, Jardín, Gimnasio',
     description: 'El Proyecto Urbano cuenta con espacios luminosos, rincones verdes, jardines aterrazados, espacios de co-working, distribución de redes de conexión wi-fi en lugares comunes, piscinas con solárium, automatizaciones y porteros visores en resguardo de seguridad, terrazas privadas con jardines colgantes, fachadas integrales e iluminación incorporada a la arquitectura y al realce del diseño. Las unidades se encuentran diseñadas y equipadas con un alto grado de detalle, calidad y vanguardia. El diseño de sus espacios y mobiliario, responden a una permanente búsqueda de innovación y flexibilidad, dando como resultado ambientes amplios, funcionales y luminosos. Los materiales elegidos son nobles y están pensados para que perduren inalterables a lo largo del tiempo.'
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
     title: 'Fragata Sarmiento',
     location: 'Fragata Pres. Sarmiento 2101, Cdad. Autónoma de Buenos Aires',
     category: 'Residencial',
-    image: 'https://picsum.photos/800/800?random=3',
+    image: '/assets/images/nordic_calm_00.avif',
     status: 'Finalizado',
     amenities: 'Piscina, Jardín, Gimnasio',
     description: 'El Proyecto Urbano cuenta con espacios verdes dónde la luz y el sol se asoma, y riega todos los ambientes de los departamentos diseñados. Ambientes amplios, luminosos, funcionales y factibles de ser divididos sin perder su ventilación y asolamiento.'

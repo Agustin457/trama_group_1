@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const HERO_IMAGES = [
-  "https://picsum.photos/1920/1080?random=1",
-  "https://picsum.photos/1920/1080?random=2",
-  "https://picsum.photos/1920/1080?random=3"
+  "/assets/images/carousel_hero_1.png",
+  "/assets/images/modern_cool_00.avif",
+  "/assets/images/nordic_calm_00.avif",
 ];
 
 const Hero: React.FC = () => {
