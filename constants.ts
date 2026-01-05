@@ -55,27 +55,27 @@ export const TEAM_MEMBERS = [
     name: 'Lorena',
     role: 'Arquitecta',
     bio: 'Desde hace mas de 15 años nos especializamos en el desarrollo de negocios inmobiliarios. Transformamos espacios urbanos, sustentables y eficientes con una mirada distinta para que cada construcción sea única de verdad',
-    image: 'public/assets/images/Lorena.png' // Placeholder image
+    image: '/assets/images/Lorena.png' // Placeholder image
   },
   {
     id: 2,
     name: 'German',
     role: 'Estudiante de Arquitectura',
     bio: 'Trabajar en un entorno de constante aprendizaje es un gran desafío. Grupo Trama esta en constante evolución y desarrollo, creando proyectos creativos e innovadores',
-    image: 'public/assets/images/German.png' // Placeholder image
+    image: '/assets/images/German.png' // Placeholder image
   },
   {
     id: 3,
     name: 'Mariano',
     role: 'Contador',
     bio: 'Contamos con un equipo de profesionales interdiciplinarios, arquitectos, ingenieros, abogados, contadores y especialistas en inversiones, que permiten llevar a cabo la realización de varios proyectos de manera simultánea, involucrándonos en cada uno de ellos',
-    image: 'public/assets/images/Mariano.png' // Placeholder image
+    image: '/assets/images/Mariano.png' // Placeholder image
   },
   {
     id: 4,
     name: 'Alejandro',
     role: 'Contador',
     bio: 'El desarrollo financiero es hoy la clave para brindar a los clientes la posibilidad de cumplir el sueño de tener su casa, es una prioridad dentro de Grupo Trama trabajar en ello',
-    image: 'public/assets/images/Alejandro.png' // Placeholder image
+    image: '/assets/images/Alejandro.png' // Placeholder image
   }
 ];

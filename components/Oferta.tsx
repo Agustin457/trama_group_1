@@ -1,7 +1,6 @@
 import React from 'react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import TeamSection from '../components/TeamSection';
-import Image from '../public/assets/images/datos_inv.avif';
 
 const Nosotros: React.FC = () => {
     const { ref, isVisible } = useScrollReveal();
@@ -18,7 +17,11 @@ const Nosotros: React.FC = () => {
 
                     <div className="grid md:grid-cols-2 gap-8 items-center">
                         <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-                            <img src={Image} alt="datos_inversiones" className="w-full h-auto rounded-lg shadow-lg" />
+                            <img
+                                src="/assets/images/datos_inv.avif"
+                                alt="datos_inversiones"
+                                className="w-full h-auto rounded-lg shadow-lg"
+                            />
                         </div>
                         <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                             <h3 className="text-2xl font-serif text-luxury-black mb-6">Porcentual de utilidad en las distintas etapas de inversión</h3>
@@ -27,7 +30,6 @@ const Nosotros: React.FC = () => {
                             </p>
                             <p className="text-lg text-luxury-gray font-light leading-relaxed mb-12">
                                 Con Grupo Trama tenés la posibilidad de
-
                                 invertir en proyectos inmobiliarios desde el
                                 pozo, generando una rentabilidad en dólares
                                 de hasta el 38% del valor del inmueble.
