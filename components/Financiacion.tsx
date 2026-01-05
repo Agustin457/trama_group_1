@@ -6,7 +6,7 @@ const Financiacion: React.FC = () => {
   return (
     <section>
       <div className="bg-white">
-        <div className="bg-[#1c3225] text-white py-20 px-6">
+        <div className="bg-[#cbcb0a] text-white py-20 px-6">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-serif mb-6">Consulta por nuestras opciones de financiacion</h1>
             <Link
