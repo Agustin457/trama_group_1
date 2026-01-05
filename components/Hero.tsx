@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
 
             <Link
               to="/projects"
-              className="px-8 py-4 bg-transparent border border-gray-300 rounded-full font-semibold hover:border-black transition-colors"
+              className="group px-8 py-4 bg-green-900 text-white rounded-full font-semibold flex items-center gap-2 hover:bg-gray-800 transition-colors"
             >
               Ver trabajos
             </Link>
